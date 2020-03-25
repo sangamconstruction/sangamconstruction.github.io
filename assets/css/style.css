@@ -1,0 +1,75 @@
+.carousel-inner img {
+  width: 85%;
+  height: 85%;
+}
+
+.bg-custom{
+  background-color: #690005;
+}
+.navbar{
+  border-radius: 5px 5px 5px 5px;
+}
+
+.navbar .logo{
+  width: 100px;
+  background: white;
+  border-radius: 50%;
+}
+
+.footer .logo{
+  width: 100px;
+}
+
+.footer{
+  width: 100%;
+  /* position: fixed; */
+  /* bottom: 0; */
+  background-color: #690005;
+  color: #ffffff;
+  height: 60px;
+  padding: 2%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  border: solid 1px #690005;
+  width: 30%;
+  height: 15%;
+  border-radius: 30%;
+  background-color: #690005;
+}
+
+#aboutus{
+  background: #9a7d92;
+  color: #690005;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+#projects{
+  background: #9a7d92;
+  color: #690005;
+}
+
+#clients{
+  background: #9a7d92;
+  color: #690005;
+}
+
+#contactus{
+  background: #9a7d92;
+  color: #690005;
+}
+
+.content{
+  margin-top: 3%;
+  padding: 1%;
+  font-family: 'Lato';
+  border-radius: 5px 5px 5px 5px ;
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
