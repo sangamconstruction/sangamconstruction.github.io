@@ -1,172 +1,385 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Sangam Construction & Consultant </title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SANGAM</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="css/jquery.dataTables.min.css" rel="stylesheet">
+    <link href="css/responsive.dataTables.min.css" rel="stylesheet">
+    <link href="css/style.css?time=<?php echo time(); ?>" rel="stylesheet">
   </head>
   <body>
-    <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators" id="carousel-indicators">
-        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-      </ol>
-      <div class="carousel-inner" id="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="logo.png" alt="Sangam Construction & Consultant">
+    <div class="ttop_bar">
+      <div class="container">
+        <div class="hous_box9">
+          <div class="pull-left">
+            <ul class="ul_set">
+              <li><a href="#"><i class="fa fa-phone"></i> +91 767865000</a></li>
+              <li><a href="#"><i class="fa fa-envelope"></i> info@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="pull-right">
+            <div class="sosilam">
+              <ul class="ul_set">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="javascript:void(0)" role="button" data-slide="prev" onclick="changeSlide('prev');">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" role="button" data-slide="next" href="javascript:void(0)" onclick="changeSlide('next');">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
+<header>
+ <div class="main_nav">
 
-    <nav class="navbar navbar-expand-md navbar-expand-lg navbar-expand-lg sticky-top navbar-dark bg-custom">
-      <a class="navbar-brand" href=""><img class="logo" src="logo.png" alt="Sangam Construction & Consultant"></a>
+   <nav class="navbar navbar-default">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+        <span class="sr-only">Toggle navigation</span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
+        <span class="icon-bar"></span>
+
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="goToSection('aboutus')">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="goToSection('projects')">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="goToSection('clients')">Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="goToSection('contactus')">Contact Us</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          One stop location for all your construction need.
-        </span>
-      </div>
-    </nav>
 
-    <div id="aboutus" class="content">
-      <div class="container">
-        <h1>About Us</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
+      <a class="navbar-brand logo_m" href="index.php">
+
+        <img src="img/logo.png">
+
+      </a>
+
     </div>
 
-    <div id="projects" class="content">
-      <div class="container">
-        <h1>Projects</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
+
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      
+
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About Us</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Gallery</a></li>
+       <li><a href="#">Faqs</a></li>
+       <li><a href="#">Contact Us</a></li>
+      </ul>     
+
     </div>
 
-    <div id="clients" class="content">
-      <div class="container">
-        <h1>Clients</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
+  </div>
+
+</nav>
+
+ </div>
+</header>
+<link rel="stylesheet" type="text/css" href="css/lightgallery.css">
+<div class="top_scrider">
+  <div class="owl-carousel owl-theme slider_arrrw" id="slider_galler5">
+
+    <div class="item">
+<div class="banner3" style="background: url(img/img_1.png);">
+  
+</div>
     </div>
 
-    <div id="contactus" class="content">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-      </div>
+    <div class="item">
+<div class="banner3" style="background: url(img/img_2.png);">
+
+</div>
     </div>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small pt-4">
-      <!-- Footer Links -->
-      <div class="container-fluid text-center text-md-left">
-        <!-- Grid row -->
-        <div class="row">
-          <!-- Grid column -->
-          <div class="col-md-6 mt-md-0 mt-3">
-            <img class="" src="logo.png" style="width: 100px;" >
-            <!-- Content -->
-            <ul class="list-unstyled">
-              <li><i class="fa fa-mobile" aria-hidden="true"></i>+91-1234567810</li>
-              <li><i class="fa fa-mobile" aria-hidden="true"></i>+91-1234567810</li>
-              <li><i class="fa fa-envelope" aria-hidden="true"></i>sangamindore@gmail.com</li>
-            </ul>
+    <div class="item">
+<div class="banner3" style="background: url(img/img_3.png);">
 
-          </div>
-          <!-- Grid column -->
-          <hr class="clearfix w-100 d-md-none pb-3">
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
-            <!-- Links -->
-            <h5 class="text-uppercase">Contact us for</h5>
-            <ul class="list-unstyled">
-              <li>
-                <a href="">Architecturing</a>
-              </li>
-              <li>
-                <a href="">Planning</a>
-              </li>
-              <li>
-                <a href="">Construction</a>
-              </li>
-              <li>
-                <a href="">Drawing</a>
-              </li>
-            </ul>
+</div>
+    </div>
 
-          </div>
-          <!-- Grid column -->
+    <div class="item">
+<div class="banner3" style="background: url(img/img_4.png);">
 
-          <!-- Grid column -->
-          <div class="col-md-3 mb-md-0 mb-3">
+</div>
+    </div>
 
-            <!-- Links -->
-            <h5 class="text-uppercase">Also</h5>
 
-            <ul class="list-unstyled">
-              <li>
-                <a href="">Planning</a>
-              </li>
-              <li>
-                <a href="">Planning</a>
-              </li>
-              <li>
-                <a href="">Planning</a>
-              </li>
-              <li>
-                <a href="">Planning</a>
-              </li>
-            </ul>
-          </div>
-          <!-- Grid column -->
+  </div>
+</div>
+
+<div class="sec_pad aboout">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="hous_box1">
+          <img src="img/img_5.png" class="img_r">
         </div>
-        <!-- Grid row -->
       </div>
-      <!-- Footer Links -->
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://sangamconstruction.com/"> sangamconstruction.com</a>
+      <div class="col-sm-6">
+        <div class="hous_box2">
+          <div class="headding">
+        <h1>About Us</h1>
       </div>
-      <!-- Copyright -->
+      <p>
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+      </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    </footer>
-    <!-- Footer -->
+<div class="sec_pad  Ouer_servidee">
+    <div class="container">
+       <div class="headding">
+        <h1>OUR Services</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          <br> industry's standard dummy text ever since Lorem Ipsum.
+        </p>
+      </div>
+      <div id="lightgallery" class="list-unstyled row">
+       <div class="col-sm-4" data-src="img/img_1.png">
+            <div class="hous_box3">
+              <a href="">
+                <img class="img_r" src="img/img_1.png">
+            </a>
+            </div>
+        </div>
+       <div class="col-sm-4" data-src="img/img_2.png">
+            <div class="hous_box3">
+              <a href="">
+                <img class="img_r" src="img/img_2.png">
+            </a>
+            </div>
+        </div>
+       <div class="col-sm-4" data-src="img/img_3.png">
+            <div class="hous_box3">
+              <a href="">
+                <img class="img_r" src="img/img_3.png">
+            </a>
+            </div>
+        </div>
+       <div class="col-sm-4" data-src="img/img_4.png">
+            <div class="hous_box3">
+              <a href="">
+                <img class="img_r" src="img/img_4.png">
+            </a>
+            </div>
+        </div>
+       <div class="col-sm-4" data-src="img/img_5.png">
+            <div class="hous_box3">
+              <a href="">
+                <img class="img_r" src="img/img_5.png">
+            </a>
+            </div>
+        </div>
+       <div class="col-sm-4" data-src="img/img_6.png">
+            <div class="hous_box3">
+              <a href="">
+                <img class="img_r" src="img/img_6.png">
+            </a>
+            </div>
+        </div>
+      </div>
+    
+    </div>
+</div>
+<div class="sec_pad  ouser_dma">
+  <div class="container">
+    <!-- <div class="headding">
+        <h1>OUR Interesting Facts</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          <br> industry's standard dummy text ever since Lorem Ipsum.
+        </p>
+      </div> -->
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="hous_box4">
+            <img src="img/img_8.png">   
+          <h1 class="count">35000</h1>
+          <h4>Total Projects</h4>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="hous_box4">
+            <img src="img/img_9.png">   
+          <h1 class="count">700</h1>
+          <h4>3D Township Projects</h4>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="hous_box4">
+            <img src="img/img_10.png">   
+          <h1 class="count">12000</h1>
+          <h4>3D Bungalow Projects</h4>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="hous_box4">
+            <img src="img/img_11.png">   
+          <h1 class="count">198000</h1>
+          <h4>People Like</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="sec_pad cliserff">
+  <div class="container">
+    <div class="headding">
+        <h1>OUR Testimonial</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+          <br> industry's standard dummy text ever since Lorem Ipsum.
+        </p>
+      </div>
+      <div class="sliderr_cllee">
+        <div class="owl-carousel owl-theme slider_arrrw" id="Testimonial">
+
+        <div class="item">
+          <div class="hous_box6">
+          <div class="hous_box5">
+            <div class="testimonial-content">
+              <div class="testimonial-icon">
+                  <i class="fa fa-quote-left"></i>
+              </div>
+              <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+              </p>
+          </div>
+          <div class="hous_box8">
+            <img src="img/img_12.png" class="hous_box7">
+          <h3 class="title">williamson</h3>
+          <span class="post">Design Scope</span>
+        </div>
+          </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="hous_box6">
+          <div class="hous_box5">
+            <div class="testimonial-content">
+              <div class="testimonial-icon">
+                  <i class="fa fa-quote-left"></i>
+              </div>
+              <p class="description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+              </p>
+          </div>
+          <div class="hous_box8">
+            <img src="img/img_12.png" class="hous_box7">
+          <h3 class="title">williamson</h3>
+          <span class="post">Pride Group</span>
+          </div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+  </div>
+</div>
 
 
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="footer_logo">
+            <img src="img/logo_white.png" class="img_r">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="row">
+            <div class="col-sm-4">
+              <h4>Company</h4>
+              <div class="link_2">
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Services</a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <h4>Legal</h4>
+              <div class="link_2">
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Support</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+             <h4>Follow Us </h4>
+              <div class="link_2">
+                <a href="#"><i class="fa fa-facebook"></i> facebook</a>
+                <a href="#"><i class="fa fa-twitter"></i> twitter</a>
+                <a href="#"><i class="fa fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fa fa-linkedin"></i> linkedin</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="copyrr">
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-12 text-center">
+        <p>Copyright <b>SANGAM</b> © 2020. All Rights Reserved. </p>
+      </div>
+    
+    </div>
+    </div>
+  </div>
+</footer>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/app.js"></script>
-  </body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+ </body>
 </html>
+
+<script type="text/javascript" src="js/lightgallery-all.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#lightgallery').lightGallery();
+  });
+</script>
+
+<script type="text/javascript">
+  $('.count').each(function () {
+  $(this).prop('Counter',0).animate({
+  Counter: $(this).text()
+  }, {
+  duration: 4000,
+  easing: 'swing',
+  step: function (now) {
+  $(this).text(Math.ceil(now));
+  }
+  });
+  });
+</script>
